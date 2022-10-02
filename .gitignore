@@ -1,0 +1,20 @@
+# editor stuff
+**/.vscode
+**/.idea
+**/*.iml
+
+# build info
+/build
+**/CMakeFiles
+**/CMakeCache.txt
+**/Makefile
+**/*.cmake
+**/*.so
+**/.a
+/dest
+
+# python virtual enviroment
+/venv
+
+# test file
+rawUdpMessage10.bytes
