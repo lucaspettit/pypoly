@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pypoly
+Version: 0.0.1
+Summary: Tools to read Grand Turismo telemetry data
+Home-page: UNKNOWN
+Author: Lucas Pettit
+Author-email: 
+License: MIT
+Description: # PyPoly
+        Python library for retrieving Grand Truismo telemetry data from the Playstation console.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
