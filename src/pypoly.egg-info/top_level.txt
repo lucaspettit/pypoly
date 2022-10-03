@@ -1,2 +1,0 @@
-pypoly
-telemetry/telemetry_bindings

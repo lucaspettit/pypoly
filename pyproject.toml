@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=59.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypoly"
+version = "0.0.1"
+authors = [
+    { name="Lucas Pettit", email="lucaspettit64@gmail.com" }
+]
+description = "Read Grand Turismo telemetry data from the PlayStation"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Unix :: MacOS"
+]
+[project.urls]
+"Homepage" = "https://github.com/lucaspettit/pypoly"
+"Bug Tracker" = "https://github.com/lucaspettit/pypoly/issues"

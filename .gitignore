@@ -5,16 +5,19 @@
 
 # build info
 /build
-**/CMakeFiles
+**/CMakeFiles/
 **/CMakeCache.txt
 **/Makefile
 **/*.cmake
 **/*.so
 **/.a
-/dest
+**/dist/
+**/build/
 
 # python virtual enviroment
 /venv
+**/__pycache__/
+**/*.egg-info/
 
 # test file
 rawUdpMessage10.bytes

@@ -1,0 +1,5 @@
+#pragma once
+
+#define TELEMETRY_VERSION_MAJOR 0
+#define TELEMETRY_VERSION_MINOR 0
+#define TELEMETRY_VERSION_PATCH 0.dev1

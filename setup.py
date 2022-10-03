@@ -1,6 +1,4 @@
-import setuptools
 import os, re, sys
-import sysconfig
 import platform
 import subprocess
 
@@ -57,18 +55,15 @@ class CMakeBuild(build_ext):
       os.makedirs(self.build_temp)
     subprocess.check_call(['cmake', ext.sourcedir] + cmake_args,
                           cwd=self.build_temp, env=env)
-    try:
-      subprocess.check_call(['cmake', '--build', '.'] + build_args,
+    subprocess.check_call(['cmake', '--build', '.'] + build_args,
                           cwd=self.build_temp)
-    except Exception as e:
-      print(e)
 
 with open("README.md", "r") as f:
   long_description = f.read()
 
 
 setup(
-  name='pypoly',
+  name='telempy',
   version='0.0.1',
   author='Lucas Pettit',
   author_email='',

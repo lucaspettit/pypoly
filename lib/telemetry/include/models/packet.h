@@ -1,12 +1,12 @@
 #ifndef PACKET_H
 #define PACKET_H
 
+#include <iostream>
 #include "vector.h"
 #include "wheels.h"
 #include "bounds.h"
 #include "flags.h"
 #include "gearRatios.h"
-#include <iostream>
 
 namespace gt { // models
     using std::uint8_t;

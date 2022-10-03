@@ -1,3 +1,4 @@
+from telempy import telemetry
 
 if __name__ == '__main__':
 

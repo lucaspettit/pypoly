@@ -1,7 +1,0 @@
-README.md
-setup.py
-src/pypoly.egg-info/PKG-INFO
-src/pypoly.egg-info/SOURCES.txt
-src/pypoly.egg-info/dependency_links.txt
-src/pypoly.egg-info/not-zip-safe
-src/pypoly.egg-info/top_level.txt

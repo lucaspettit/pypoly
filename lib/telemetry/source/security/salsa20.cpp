@@ -1,4 +1,4 @@
-#include "../../include/cipher/salsa20.h"
+#include "../../include/security/salsa20.h"
 #include <stdexcept>
 #include <iostream>
 

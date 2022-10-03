@@ -1,4 +1,4 @@
-#include "../../include/receiver.h"
+#include "../../include/reader/packetReader.h"
 #include <string.h>
 #include <unistd.h>
 #include <iostream>
@@ -65,7 +65,7 @@ void PacketReader::sendHeartbeat() {
             << std::endl;
         packetCount = 0;
         
-        int ret = sendto(
+        sendto(
             sock, 
             message, 
             1, // message size 

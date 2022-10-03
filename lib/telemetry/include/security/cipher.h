@@ -1,8 +1,8 @@
 #ifndef CIPHER_H
 #define CIPHER_H
 
-#include "salsa20.h"
 #include <string>
+#include "salsa20.h"
 
 namespace gt {
     using std::size_t;
